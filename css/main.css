@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(89, 156, 182);
+}
+
+p{
+    text-align: justify;
+}
+
+.resume-container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    box-shadow: 8px 10px 10px rgb(48, 74, 92);
+}
+
+.my-col-1{
+    background-color:gainsboro;
+}
+
+.my-col-2{
+    background-color: white;
+}
+
+.my-col-1 > hr{
+    color:black; 
+    height: 5px !important;
+} 
+
+.my-col-2 > hr{
+    color:rgb(38, 20, 104); 
+    height: 6px !important;
+} 
+.my-col-2-item{
+    margin: 2em;;
+}
+/* my contact block */
+.contact-content{
+    margin-left: -1.3em;
+}
+
+.contact-content> li>a{
+    text-decoration: none; color: black;
+}
+.profile-pic {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+/* resume header */
+.resume-header{
+    margin-top: 3em;
+}
+.profile-name{
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.work-item-name, .edu-head-name, .projects-item-name{
+    color:rgb(89, 68, 167);
+    border-color: black!important;
+}
+
+@media screen and (max-width: 767px) {
+    .my-col-2{
+        margin-bottom: -1px;
+    }
+    .my-col-1{
+        background-color:white;
+        
+    }
+    .profile-pic-col{
+        background-color:gainsboro;
+    }
+  }
+  @media screen and (min-width: 768px)  and (max-width: 991px) {
+    .my-col-1{
+        font-size: 90%;
+        margin-bottom: -1px;
+    }
+    .my-col-2{
+        margin-bottom: -1px;
+    }
+  }
+
+
+    
+  @media screen and (max-width: 374px) {
+    body{
+        background-color:green;
+    }
+    .resume-container{
+        
+        margin: 0 auto;
+    }
+  }
